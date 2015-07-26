@@ -1,0 +1,14 @@
+{
+    "userBase": {
+        "entries": [
+            {
+                "user": "rahul",
+                "pwd": "rahul"
+            },
+            {
+                "user": "demo",
+                "pwd": "demo"
+            }
+        ]
+    }
+}

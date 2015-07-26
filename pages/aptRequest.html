@@ -1,0 +1,48 @@
+    <div class="row">
+        <form class="form-horizontal" action='' method="POST">
+            <div id="legend">
+              <legend class="">Request</legend>
+          </div>
+          <div class="form-group">
+                <div class="col-md-1">
+                <label class="control-label">Area:</label>
+                </div>
+                <div class="col-md-11">
+                <select id="area" name="area" class="input-xlarge" required>
+                    <option value="" selected="selected">(please select a area)</option>
+                    <option value="PL">Plumbing</option>
+                    <option value="ET">Electrician</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-1">
+            <label class="control-label" for="description">Description:</label>
+            </div>
+            <div class="col-md-11">
+            <textarea class="form-control" rows="10" name="description" placeholder="Description" required>
+            </textarea>
+            </div>
+        </div>
+
+        
+            <div class="form-group">
+                <div class="col-md-1">
+                <label class="control-label" for="description">Time:</label>
+                </div>
+                <div class='col-sm-3'>
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="date form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    <div class="form-group">
+        <button type="submitt" class="btn btn-lg btn-primary btn-block">Submit</button>
+    </div>
+</form>
+</div>
+
